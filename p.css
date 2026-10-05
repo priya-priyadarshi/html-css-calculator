@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background: burlywood;
+    align-items: center;
+
+}
+.calculator{
+    width: 340px;
+    padding: 10px;
+    background: gray;
+    border-radius: 10px;
+
+
+
+}
+
+.display{
+    height: 70px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    background: blue;
+
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+button{
+    height: 70px;
+    width: 60px;
+
+
+}
+
+.operator{
+    background:yellow ;
+
+}
+.number{
+    background:skyblue ;
+}
+.clear{
+    background: red;
+
+}
+.equal{
+    background: green;
+
+}
